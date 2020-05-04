@@ -1,0 +1,15 @@
+plugins {
+  id 'java-library'
+}
+
+group 'com.github.kohii.filestorage-java'
+version '1.0-SNAPSHOT'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  api 'commons-io:commons-io:2.6'
+  api 'com.amazonaws:aws-java-sdk-s3:1.11.774'
+}

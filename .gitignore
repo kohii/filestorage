@@ -1,0 +1,29 @@
+# Gradle
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Build output directies
+/target
+*/target
+/build
+*/build
+
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
+/*/out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
